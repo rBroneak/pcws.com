@@ -1,0 +1,272 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, hr, button {
+background:transparent none repeat scroll 0 0;border:0 none;font-size:100%;margin:0;outline-style:none;outline-width:0;padding:0;vertical-align:baseline;}
+
+ol, ul {list-style-image:none;list-style-position:outside;list-style-type:none;}
+h1, h2, h3, h4, h5, h6, li {line-height:100%;}
+blockquote, q {quotes:none;}
+
+.clear {
+	clear: both;
+}
+
+body {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, san-serif;
+	font-size: 13px;
+	color: #2d2d2d;
+}
+
+p strong {
+	font-weight: bold;
+}
+
+a.dotted:link,
+a.dotted:visited,
+a.dotted:active {
+	color: gray;
+	text-decoration: none;
+	border-bottom: 1px dotted #4a186d;
+	font-weight: bold;
+}
+
+a.dotted:hover {
+	color: gray;
+	border-bottom: none;
+}
+
+.interiorContentRight img {
+	-webkit-box-shadow:  0px 1px 2px 2px rgba(00, 00, 00, .25);
+	box-shadow:  0px 1px 2px 2px rgba(00, 00, 00, .25);
+}
+
+.header {
+	width: 960px;
+	height: 24px;
+	background-color: #ebebeb;
+	padding: 8px;
+}
+
+.headerEmail {
+	display: inline;
+	float: right;
+}
+
+.headerEmail p {
+	float: left;
+	line-height: 24px;
+}
+
+.logo {
+	width: 427px;
+	height: 80px;
+	background: url("../media/aafs_logo.gif") no-repeat;
+	margin: 10px;
+	float: left;
+	text-indent: -9999px;
+}
+
+#nav {
+	padding-top: 38px;
+	float: right;
+}
+
+#nav a {
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-right: 5px;
+	color: gray;	
+}
+	#nav a:hover{
+		text-decoration: underline;	
+	}
+
+#hero {
+	width: 967px;
+	height: 270px;
+	background: url("../media/hero_image.jpg") no-repeat;
+}
+
+#proverbs {
+	float: right;
+	margin: 5px 10px 0px 0px;
+}
+
+#contentBucket1 {
+	/* width: 360px; */
+	width: 637px;
+	margin: 8px 20px 10px 0px;
+	float: left;
+}
+
+#contentBucket2 {
+	width: 277px;
+	margin: 8px 0px 10px 0px; 
+	float: left;
+}
+
+#contentBucket3 {
+	width: 277px;
+	margin: 8px 20px 10px 5px; 
+	float: left;
+}
+
+#contentBucket3 p {
+	line-height: 20px;
+}
+
+h2 {
+	color: grey;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.hr {
+	height: 1px;
+	border-top: 1px solid #e7e7e7;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.footer {
+	height: 40px;
+	line-height: 40px;
+	background-color: #ebebeb;
+}
+
+.footerLeft {
+	padding-left: 8px;
+	float: left;
+}
+
+.footerRight {
+	padding-right: 8px;
+	float: right;
+}
+
+.interiorContent {
+	padding: 0px 15px 0px 15px;
+}
+
+.profile {
+	float: left;
+	width: 350px;
+	margin-bottom: 35px;
+}
+
+
+.interiorContentLeft {
+	width: 225px;
+	float: left;
+	margin-right: 30px;
+}
+	.interiorContentLeft h3{
+		
+	}
+
+.interiorContentRight {
+	width: 705px;
+	margin-bottom: 50px;
+	float: left;
+}
+
+h3 {
+	font-size: 13px;
+	line-height: 15px;
+	margin: 10px;
+}
+
+h3 a:link,
+h3 a:visited,
+h3 a:active {
+	color: gray;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+h3 a:hover {
+	color: black;
+}
+
+ul {
+	margin: 5px 0px 5px 0px;
+}
+
+ul li {
+	margin-left: 30px;
+	list-style-type: disc;
+	line-height: 125%;
+}
+
+/* contact form */
+
+
+#contactform input {
+	font-family: "Helvetica Neue", Helvetica, Arial, san-serif;
+	font-size: 17px;
+	color: #969696;
+	border: 1px solid #9d9d9d;
+	margin-bottom: 8px;
+	width: 350px;
+	height: 30px;
+	padding-left: 5px;
+	margin-top: 5px;
+}
+
+div.contact_form form { 
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+
+#contactform input.submit {
+	width: 90px;
+  	height: 28px;
+  	text-indent: -9999px;
+  	background: url('../media/btn_submit.gif') no-repeat;
+  	border: none;
+  	outline: none;
+}
+
+#contactform #input {
+	float: left;
+}
+
+.mce_inline_error { 
+	color: #ff0000 !important;
+}
+
+#habla_both_div {
+	display: none !important;
+}
+
+/* ---------- popup window ------------ */
+
+/* #mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+  
+#box .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:350px;
+  height:135px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+}
+
+#box #dialog {
+  width:350px; 
+  height:135px;
+  padding:10px;
+  background-color:#ffffff;
+}*/
+
